@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BsRss } from "react-icons/bs";
+import { CgMore } from "react-icons/cg";
 import { DiJavascript } from "react-icons/di";
 import { FaGolang } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -59,9 +60,14 @@ export default async function ProjectCard(props: CardProp) {
           className="w-full h-full rounded-box"
         />
       </figure>
-      <div className="card-body p-4 pt-2 z-10">
-        <h2 className="card-title">{props.title}</h2>
-        <p className="line-clamp-3 text-balance">{props.description}</p>
+      <div className="card-body p-4 pt-2 z-10 tooltip">
+        <h2 className="card-title">
+          {props.title}
+          <div className="tooltip" data-tip={props.description}>
+            <CgMore />
+          </div>
+        </h2>
+        <p className="line-clamp-3 text-left pt-4">{props.description}</p>
         <p className="flex items-center gap-2 py-4">
           {props.skills.map((val) => {
             return IconMap[val];
