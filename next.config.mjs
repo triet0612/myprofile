@@ -13,6 +13,8 @@ const nextConfig = {
     loader: "custom",
     loaderFile: "./my-loader.ts",
   },
+  assetPrefix: "/myprofile",
+  basePath: "/myprofile",
 };
 
 const withMDX = createMDX({
