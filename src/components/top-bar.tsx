@@ -51,7 +51,7 @@ export default async function TopBar() {
         >
           <div className="w-10 h-10">
             <Image
-              src={"/icon.webp"}
+              src={"./icon.webp"}
               className="w-full h-auto rounded-full bg-black"
               alt={"my-profile"}
               sizes="100vw"

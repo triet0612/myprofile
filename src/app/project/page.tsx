@@ -2,7 +2,7 @@ import ProjectCard from "@/app/project/_components/card";
 
 const projects = [
   {
-    imgURL: "/projects/short_news.webp",
+    imgURL: "./projects/short_news.webp",
     title: "Short News app",
     description:
       "An app to help busy people listen to news from sources that they love in short. AI enhanced RSS reader with Gemma:2b text summarization and PiperTTS. App support English and Vietnamese RSS.",
@@ -20,7 +20,7 @@ const projects = [
     ],
   },
   {
-    imgURL: "/projects/kryxa.webp",
+    imgURL: "./projects/kryxa.webp",
     title: "Kryxa app",
     description:
       "An app to manage internet cafe. Admin can manage PCs, shop's stocks, terminate and open PC sessions. Customer can order food, extra time.",
@@ -35,7 +35,7 @@ const projects = [
     ],
   },
   {
-    imgURL: "/projects/wallet_app.webp",
+    imgURL: "./projects/wallet_app.webp",
     title: "Wallet app",
     description:
       "Flutter wallet app with financial news reader and book store. User can add their transaction history, set categories for the spending, set balance and view statistics of their financial usage. View financial news scrape from VNexpress, view daily book recommendation from Fahasa.",

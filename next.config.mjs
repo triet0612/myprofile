@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 
-import remarkGfm from "remark-gfm";
 import createMDX from "@next/mdx";
 
 /** @type {import('next').NextConfig} */
@@ -11,7 +10,6 @@ const nextConfig = {
   // Optionally, add any other Next.js config below
   images: {
     unoptimized: true,
-    path: "/myprofile"
   },
   assetPrefix: "/myprofile",
   basePath: "/myprofile",

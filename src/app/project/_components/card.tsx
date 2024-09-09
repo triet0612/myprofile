@@ -41,7 +41,7 @@ export default async function ProjectCard(props: CardProp) {
   return (
     <div className="card bg-accent text-secondary-content w-96 max-w-[90%] shadow-2xl h-full mx-auto rotate-2 hover:rotate-0">
       <Image
-        src={"/icon.webp"}
+        src={"./icon.webp"}
         className="absolute w-full h-full bg-base-200 brightness-[0.1] opacity-80 rounded-box"
         alt={"my-profile"}
         sizes="100vw"

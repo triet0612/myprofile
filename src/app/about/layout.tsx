@@ -9,7 +9,7 @@ export default function AboutPage({
     <>
       <div className="h-full w-full">
         <Image
-          src={"/bg.webp"}
+          src={"./bg.webp"}
           className="fixed w-full h-full bg-base-200 brightness-[0.2] opacity-90 -z-10"
           alt={"my-profile"}
           sizes="100vw"

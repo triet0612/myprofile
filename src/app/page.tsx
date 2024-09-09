@@ -10,7 +10,7 @@ export default async function Home() {
         <div className="hero-content flex-col w-full lg:flex-row">
           <div className="w-full max-w-sm">
             <Image
-              src="/profile.png"
+              src="./profile.png"
               className="rounded-lg fill shadow-2xl brightness-75 w-full h-auto"
               alt={"my-profile"}
               sizes="100vw"
